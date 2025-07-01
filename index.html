@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- hello -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgb(46,55,69);">
+    <div id="header" style="width:100% ; height : 10vh">
+        <button type="button" class="btn btn-light" onclick="generateArray()">New Array</button>
+        <div class="seperater">|</div>
+        <div class='info'>No of Elements</div>
+        <div class="slidecontainer">
+            <input type="range" min="10" max="35" value="10" class="slider" id="myRange">
+
+        </div>
+        <div class="seperater">|</div>
+        <div class='info'>Speed </div>
+        
+        <div class="slidecontainer">
+            <input type="range" min="100" max="900" value="500" class="slider" id="myRange1">
+        </div>
+        <div class="seperater">|</div>
+        <div class="name">Sorting Algo. Visualizer</div>
+        <div class="seperater">|</div>
+
+        <div class="sortoption">
+            
+            <input type="radio" name="sort" id="bubbleSort" class = "sortOp" value="BubbleSort" checked = "true">Bubble Sort
+            <input type="radio" name="sort" id="selectionSort" class = "sortOp" value="selectionSort">Selection Sort
+            <input type="radio" name="sort" id="insertionSort" class = "sortOp" value="insertionSort">Insertion Sort
+            <input type="radio" name="sort" id="mergeSort" class = "sortOp" value="mergeSort">Merge Sort
+            <input type="radio" name="sort" id="quickSort" class = "sortOp" value="quickSort">Quick Sort
+            
+        </div>
+    </div>
+    <div id="container">
+        <div class="bar"></div>
+    </div>
+    <div class="start">
+        <div class="cent">
+            <button type="button" onclick="select()" class="btn btn-light btn2">Start</button>
+        </div>
+    </div>
+    <script src="sorting.js"></script>
+</body>
+
+</html>

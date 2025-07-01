@@ -1,0 +1,150 @@
+/* header */
+/* hello */
+#header{
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    margin-top : auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+    height: 30px;
+    width: 150px;
+}
+.btn2{
+    width: 100px;
+}
+.name{
+    color: white;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    margin-left:6px;
+}
+#container {    
+    display: flex;
+    width: 99%;
+    min-width: 99%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* position: absolute; */
+}
+.sortoption{
+    color : white;  
+    margin-top: 15px;
+    margin-bottom: auto;
+    margin-right: 5px;
+}
+.sortOp{
+    margin-left: 10px;
+    margin-top: 20px
+}
+.bar {
+    margin-right: 1px;
+    transition: 0.2s transform ease;
+    position: absolute;
+}
+
+.barValue {
+    margin-right: 1px;
+    transition: 0.2s transform ease;
+    position: absolute;
+    color: rgb(46, 55, 69);
+    font-weight: bold;
+}
+
+.sing {
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-end; */
+    position: absolute;
+        top: 80%;
+        left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 2px solid red; */
+    padding: 10px;
+    color: white
+}
+
+.colorPallet {
+    /* align-self: auto; */
+    width: 15px;
+    height: 15px;
+}
+
+.col-info {
+    /* align-self: auto; */
+    color: white;
+    margin-left: 10px;
+}
+
+.col-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+/* Slider */
+.slidecontainer{
+    padding-top: 30px;
+}
+.slider {
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+}
+
+.info{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    color : white;
+}
+.seperater{
+    color : white;
+    font-size: 30px;
+    margin-top : auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.cent {
+    width: 10%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.start{
+    margin-top: 80px;
+}
